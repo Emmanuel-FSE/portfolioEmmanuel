@@ -1,155 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emmanuel Mutisya Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/5c6ae9f5c8.js" crossorigin="anonymous"></script>
-</head>
-<body>
-   <header>
-    <button class="nav-toggle" aria-label="toggle navigation">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicons/site.webmanifest" />
+    <script
+      src="https://kit.fontawesome.com/5c6ae9f5c8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
-    </button>
-    <nav class="nav">
+      </button>
+      <nav class="nav">
         <ul class="nav__list">
-            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
-            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
         </ul>
-    </nav>
-   </header>
+      </nav>
+    </header>
 
-   <!--Introduction --> 
-   <section class="intro" id="home">
-    <h1 class="section__title section__title--intro">
+    <!--Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
         Hi, I am <strong>Emmanuel Mutisya</strong>
-    </h1>
-    <p class="section__subtitle section__subtitle--intro">FULL-STACK DEV</p>
-    <img src="img/emmauelX.jpg" alt="" class="intro__img">
-   </section>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">FULL-STACK DEV</p>
+      <img src="img/emmaxFSE.jpg" alt="" class="intro__img" />
+    </section>
 
-   <!-- My services -->
-   <section class="my-services" id="services">
-    <h2 class="section__title section__title--services">What I do</h2>
-    <div class="services">
-       <div class="service">
-        <h3>Design and development</h3>
-        <p>I am a web dveloper with a design background, very creative and
-            realiable to deliver on very satisfying results.
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design and development</h3>
+          <p>
+            I am a web developer with a design background, very creative and
+            reliable to deliver on very satisfying results.
+          </p>
+          <p class="btn">Next js</p>
+          <p class="btn">Vue js</p>
+          <p class="btn">Figma</p>
+          <p class="btn">React</p>
+          <p class="btn">Javascript</p>
+        </div>
+
+        <div class="service">
+          <h3>Back-end functionality</h3>
+          <p>
+            I poses a very high skill on back-end development making sure that
+            your website meets all expected specifications.
+          </p>
+          <p class="btn">Laravel</p>
+          <p class="btn">Rails</p>
+          <p class="btn">PHP</p>
+          <p class="btn">Ruby</p>
+        </div>
+
+        <div class="service">
+          <h3>API & Data</h3>
+          <p>
+            After taking a very comprehensive course on WordPress, I believe I
+            am very much equipped with the skill needed to interact with
+            WordPress.
+          </p>
+          <p class="btn">SQL</p>
+          <p class="btn">REST</p>
+          <p class="btn">Graphql</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am!</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer and Developer based in Kenya
+      </p>
+      <div class="about-me__body">
+        <p>
+          I graduated from Dagoretti High School and immediately joined Kenyatta
+          University to pursue a degree on Mathematics and Computer Science.
+          Currently I am at my 4th year having accomplished a lot of thing mostly
+          in web development.
         </p>
-       </div>
-
-       <div class="service">
-        <h3>Back-end functionality</h3>
-        <p>I poses a very high skill on back-end development
-           making sure that your website meets all expected specifications.
+        <p>
+          As a motivated professional, I aspire to secure a pivotal position
+          with a reputable organization that is poised for success and aligns
+          with my career goals. I take pride in delivering excellence in all my
+          endeavors and work collaboratively with team members to foster
+          positive working relationships with colleagues, management and
+          customers.
         </p>
-       </div>
-
-       <div class="service">
-        <h3>WordPress</h3>
-        <p>After taking a very comprehensive course on WordPress, I beleive I
-           am very much equipped with the skill needed to interact with WordPress. 
+        <h2>Objective!</h2>
+        <p>
+          To secure a software engineering role that leverages my skills and
+          experience to deliver high-quality software solutions.
         </p>
-       </div>
-    </div>
-    <a href="#work" class="btn">My Work</a>
-   </section>
-
-   <!-- About me -->
-   <section class="about-me" id="about">
-    <h2 class="section__title section__title--about">Who I am!</h2>
-    <p class="section__subtitle section__subtitle--about">Designer and Developer based in Kenya</p>
-    <div class="about-me__body">
-        <p>I graduated from Dagoretti High School and immediately joined Kenyatta University
-           to persue a degree on Mathematics and Computer Science. Currently I am at my 4th year
-           having accomplished alot of thing mostly in web development.
+        <p>
+          To continue to enhance my skills as a software engineer by working in
+          a challenging environment, learning new technologies and
+          methodologies, and contributing to the development of innovative
+          software products
         </p>
-        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-           when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-           It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-           It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
-        </p>
-    </div>
-    <img src="img/EmmaxMkuu.jpg" alt="a bus" class="about-me__img">
-   </section>
+      </div>
+      <img src="img/full.jpg" alt="a bus" class="about-me__img" />
+    </section>
 
-   <!-- My work -->
-   <section class="my-work" id="work">
-    <h2 class="section__title section__title--work">My Work.</h2>
-    <p class="section__subtitle section__subtitle--work">A selection of what I do.</p>
+    <!-- My work -->
+    <!-- <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work.</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of what I do.
+      </p>
 
-    <div class="portfolio">
+      <div class="portfolio">
         <a href="#" class="portfolio__item">
-            <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+          <img src="img/portfolio-01.jpg" alt="" class="portfolio__img" />
         </a>
 
         <a href="#" class="portfolio__item">
-            <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+          <img src="img/portfolio-02.jpg" alt="" class="portfolio__img" />
         </a>
 
         <a href="#" class="portfolio__item">
-            <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+          <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" />
         </a>
 
         <a href="#" class="portfolio__item">
-            <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+          <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" />
         </a>
 
         <a href="#" class="portfolio__item">
-            <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+          <img src="img/portfolio-05.jpg" alt="" class="portfolio__img" />
         </a>
 
         <a href="#" class="portfolio__item">
-            <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+          <img src="img/portfolio-06.jpg" alt="" class="portfolio__img" />
         </a>
 
         <a href="#" class="portfolio__item">
-            <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+          <img src="img/portfolio-07.jpg" alt="" class="portfolio__img" />
         </a>
 
         <a href="#" class="portfolio__item">
-            <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+          <img src="img/portfolio-08.jpg" alt="" class="portfolio__img" />
         </a>
 
         <a href="#" class="portfolio__item">
-            <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+          <img src="img/portfolio-09.jpg" alt="" class="portfolio__img" />
         </a>
 
         <a href="#" class="portfolio__item">
-            <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+          <img src="img/portfolio-10.jpg" alt="" class="portfolio__img" />
         </a>
-    </div>
-   </section>
-   <!-- My work -->
-   <footer class="footer">
-    <a href="#" class="footer__link">Hello@me</a>
-    <ul class="social-list">
-        <li class="social-list__item"><a class="social-list__link" href="https://github.com/EmmanuelTheWebDeveloper" target="_blank">
+      </div>
+    </section> -->
+    <!-- My work -->
+    <footer class="footer">
+      <a href="#home" class="footer__link">Scroll back up</a>
+      <p class="footer__link">Email: emmanuelmutisya254@gmail.com</p>
+      <p class="footer__link">Tel: +254792754923</p>
+      <p class="footer__link">Below are my social platform links</p>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/Emmanuel-FSE"
+            target="_blank"
+          >
             <i class="fa-brands fa-github"></i>
-        </a>
+          </a>
         </li>
-        <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/emmax.manu.71/" target="_blank">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.facebook.com/emmax.manu.71/"
+            target="_blank"
+          >
             <i class="fa-brands fa-facebook"></i>
-        </a>
+          </a>
         </li>
-        <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/e_mmanuel_ke/?hl=en" target="_blank">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.instagram.com/e_mmanuel_ke/?hl=en"
+            target="_blank"
+          >
             <i class="fa-brands fa-instagram"></i>
-        </a>
+          </a>
         </li>
-        <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/emmanuel-mutisya-2368a91a6/" target="_blank">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/emmanuel-mutisya-2368a91a6/"
+            target="_blank"
+          >
             <i class="fa-brands fa-linkedin"></i>
-        </a>
+          </a>
         </li>
-    </ul>
-   </footer>
-   <script src="js/index.js"></script>
-</body>
+      </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
 </html>
